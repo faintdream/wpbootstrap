@@ -1,0 +1,121 @@
+ /*
+Theme Name: WP Bootstrap 
+Theme URI: example.com
+Author: Akash Dubey
+Author URI: https://wordpress.org/
+Description: Simple bootstrap wordpress theme
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+body{
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #203748;        
+    color: #203748;
+}
+
+.break{
+    clear:both;
+}
+.jumbo_box {        
+    background-color: #f7f7f7;
+    color: #222222;        
+    font-size: 2.0em;
+    text-align: justify;
+    padding: 5%;
+    
+}
+
+.jumbo_box_info {     
+    background-color: #f7f7f7;
+    color: #222222;        
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 5%;
+    
+    left:2%;
+    margin-top: 18%;
+}
+
+.jumbo_box:hover{
+    background-color: white;        
+}
+
+.vertical-center {
+  position: relative;
+  min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 50vh; /* These two lines are counted as one :-)       */
+  display:block;
+  align-items: center;
+  margin-top: 10%;
+  
+}
+
+.code {
+    margin:3%;
+    background-color: #f2eaea;
+    font-family: courier new;
+    
+}
+
+.button {  
+  border-radius: 4px;
+  background-color: #222222;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.0em;
+  padding: 2%;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5%;
+}
+
+.navbar-fixed-top{
+    background-color:  #39D084 ;
+    height: 15%;
+    border: none;
+}
+
+.navbar-header:default{
+    background-color: white;
+     
+}
+
+ .custom-navbar > li > a{
+   color:white !important;
+   font-size: 1.5em;
+   
+}
+
+ .custom-navbar > li > a:hover{
+   border-radius: 5%;
+   background-color: #203748 !important;
+   
+   
+}
+
+.button:hover span:after {
+  opacity: 0;
+  right: 0;
+}
+
+a:link, a:active,a:visited { 
+    color:white;
+}
+
+
+#footer{
+	float:center;
+	margin-left: 50%;	
+	color:#fff;
+}
+
+
